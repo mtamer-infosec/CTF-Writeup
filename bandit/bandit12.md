@@ -21,55 +21,57 @@
 1. الاتصال بالخادم
 bash
 ssh -p 2220 bandit12@bandit.labs.overthewire.org
+
 أدخل كلمة مرور المستوى 11: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 
-2. إنشاء مجلد عمل مؤقت
+3. إنشاء مجلد عمل مؤقت
 cd $(mktemp -d)
 cp ~/data.txt .
-3. تحويل الملف من hexdump إلى ملف ثنائي
+4. تحويل الملف من hexdump إلى ملف ثنائي
 xxd -r data.txt > data.bin
 rm data.txt
-4. فك طبقات الضغط المتعددة
+5. فك طبقات الضغط المتعددة
 استمر في فك الضغط حتى الوصول للملف النهائي:
 
 
 # الطبقة الأولى: gzip
-mv data.bin data.gz
+mv data.bin data.gz &&
 gzip -d data.gz
 
 # الطبقة الثانية: bzip2  
-mv data data.bz2
+mv data data.bz2 && 
 bzip2 -d data.bz2
 
 # الطبقة الثالثة: gzip
-mv data data.gz
+mv data data.gz && 
 gzip -d data.gz
 
 # الطبقة الرابعة: tar
-mv data data.tar
-tar -xf data.tar
+mv data data.tar &&
+tar -xf data.tar && 
 rm data.tar
 
 # الطبقة الخامسة: tar
-mv data5.bin data.tar
-tar -xf data.tar
+mv data5.bin data.tar &&
+tar -xf data.tar && 
 rm data.tar
 
 # الطبقة السادسة: bzip2
-mv data6.bin data.bz2
+mv data6.bin data.bz2 &&
 bzip2 -d data.bz2
 
 # الطبقة السابعة: tar
-mv data data.tar
-tar -xf data.tar
+mv data data.tar &&
+tar -xf data.tar &&
 rm data.tar
 
 # الطبقة الثامنة: gzip
-mv data8.bin data.gz
+mv data8.bin data.gz &&
 gzip -d data.gz
 5. قراءة كلمة المرور
 cat data
 ## 🔑 النتيجة (Result)
+
 كلمة مرور المستوى 13: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 
 ## 💡 ملاحظات (Notes)
@@ -128,3 +130,4 @@ done
 # عرض كلمة المرور
 echo "$(cat data)"
 ---------------------------------------------------------------------------
+
