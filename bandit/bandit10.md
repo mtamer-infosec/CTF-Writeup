@@ -21,7 +21,7 @@
 ```bash
 ssh -p 2220 bandit10@bandit.labs.overthewire.org
 ```
-أدخل كلمة مرور المستوى 9: `4CKMh1JI91bUIZZPXDqGanal4xvAg0JM`
+أدخل كلمة مرور المستوى 9: `FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey`
 
 ### 2. فك تشفير البيانات
 ```bash

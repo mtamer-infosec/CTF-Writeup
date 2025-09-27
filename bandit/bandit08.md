@@ -21,7 +21,7 @@
 ```bash
 ssh -p 2220 bandit8@bandit.labs.overthewire.org
 ```
-أدخل كلمة مرور المستوى 7: `morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj`
+أدخل كلمة مرور المستوى 7: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 
 ### 2. البحث عن الخط الفريد
 ```bash

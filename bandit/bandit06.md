@@ -24,7 +24,7 @@
 ```bash
 ssh -p 2220 bandit6@bandit.labs.overthewire.org
 ```
-أدخل كلمة مرور المستوى 5: `4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw`
+أدخل كلمة مرور المستوى 5: `HWasnPhtq9AVKe0dmk45nxy20cvUa6EG`
 
 ### 2. البحث عن الملف بالمواصفات
 ```bash

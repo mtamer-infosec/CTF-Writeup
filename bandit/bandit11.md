@@ -21,7 +21,7 @@
 ```bash
 ssh -p 2220 bandit11@bandit.labs.overthewire.org
 ```
-أدخل كلمة مرور المستوى 10: `6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM`
+أدخل كلمة مرور المستوى 10: `dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr`
 
 ### 2. فك تشفير ROT13
 ```bash

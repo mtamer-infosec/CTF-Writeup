@@ -21,7 +21,7 @@
 ```bash
 ssh -p 2220 bandit9@bandit.labs.overthewire.org
 ```
-أدخل كلمة مرور المستوى 8: `dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc`
+أدخل كلمة مرور المستوى 8: `4CKMh1JI91bUIZZPXDqGanal4xvAg0JM`
 
 ### 2. استخراج السلاسل النصية والبحث عن النمط
 ```bash

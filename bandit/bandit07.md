@@ -21,7 +21,7 @@
 ```bash
 ssh -p 2220 bandit7@bandit.labs.overthewire.org
 ```
-أدخل كلمة مرور المستوى 6: `HWasnPhtq9AVKe0dmk45nxy20cvUa6EG`
+أدخل كلمة مرور المستوى 6: `morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj`
 
 ### 2. البحث عن الكلمة
 ```bash
