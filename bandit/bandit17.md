@@ -23,6 +23,7 @@
 ## 🚀 طريقة الحل (Solution Steps)
 
 1. عرض الفرق بين الملفين:
+2. #diff
 ```bash
 diff passwords.old passwords.new
 ```

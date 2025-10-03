@@ -25,7 +25,7 @@
 ## أمر جاهز (OpenBSD-style `nc`) — سطر واحد
 
 **نافذة 1 (Server — شغّل أولًا):**
-
+#nc 
 ```bash
 echo "0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO" | nc -l localhost 3000 &
 ```
@@ -38,7 +38,7 @@ echo "0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO" | nc -l localhost 3000 &
 ---
 ## للتجربة علي جهازك ومعرفة الامر من جذوره 
 **انشاء ملف Server.py  -----=======<  
-
+#python
 ```python
 # اعمل ملف Python لمحاكاة suconnect
 import socket

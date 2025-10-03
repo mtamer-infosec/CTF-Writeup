@@ -12,6 +12,7 @@
 ## الحل
 
 ### الأمر الكامل
+#openssl
 ```bash
 echo "8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo" | openssl s_client -quiet -connect localhost:30001
 ```

@@ -27,6 +27,7 @@ ls -la
 ستجد ملف `sshkey.private` وهو المفتاح الخاص للاتصال بالمستوى 14.
 
 ### 3. استخدام المفتاح الخاص للاتصال بالمستوى 14
+#ssh
 ```bash
 ssh -i sshkey.private bandit14@localhost -p 2220
 ```

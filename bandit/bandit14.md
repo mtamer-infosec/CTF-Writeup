@@ -21,7 +21,7 @@
 - MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
 
 ### 2. إرسال كلمة المرور إلى الخادم على البورت 30000
-
+#nc
 ```bash
 echo "MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS" | nc localhost 30000
 ```
