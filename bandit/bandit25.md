@@ -1,5 +1,5 @@
 
-# Bandit Level 26 → Level 27
+# Bandit Level 25 → Level 26
 
 **التاريخ:** 2025-10-6
 **المستوى:** 26 -> 27
